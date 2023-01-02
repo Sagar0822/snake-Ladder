@@ -18,6 +18,7 @@ import java.io.IOException;
 public class SnakeLadder extends Application {
     public static final int tileSize = 40, width = 10, height = 10;
     int lowerLine = height * tileSize;
+
     int diceValue;
     Label rolledDiceValueLabel;
     boolean firstPlayerTurn = true, secondPlayerTurn = false, gameStarted = false;
@@ -131,6 +132,7 @@ public class SnakeLadder extends Application {
     }
 
     public static void main(String[] args) {
+        int a = 1;
         launch();
     }
 }
